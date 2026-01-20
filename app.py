@@ -11,7 +11,7 @@ app = Flask(__name__)
 def load_model():
     global model
     if 'model' not in globals():
-        model = joblib.load("survival_model.pkl")
+        model = joblib.load("model.pkl")
     return model
 
 # ----------------------------
@@ -78,3 +78,4 @@ def index():
 if __name__ == "__main__":
     model = load_model()  # load once when app starts
     app.run(debug=True)
+
