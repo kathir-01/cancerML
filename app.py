@@ -1,18 +1,16 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import joblib
+from functools import lru_cache
 
 app = Flask(__name__)
 
 # ----------------------------
 # Load model once and cache
 # ----------------------------
-@staticmethod
-def load_model():
-    global model
-    if 'model' not in globals():
-        model = joblib.load("model.pkl")
-    return model
+
+@lru_cache(maxsize=1)
+def load_model():return joblib.load("model.pkl")
 
 # ----------------------------
 # Helper function to predict
@@ -78,4 +76,5 @@ def index():
 if __name__ == "__main__":
     model = load_model()  # load once when app starts
     app.run(debug=True)
+
 
