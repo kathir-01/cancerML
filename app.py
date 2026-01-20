@@ -20,6 +20,7 @@ def predict_survival(patient_data):
     patient_data: dict with keys
     Age, Gender, Cancer_Type, Tumor_Size (cm), Stage, Treatment
     """
+    model = load_model()  # load once when app starts
     df_input = pd.DataFrame([patient_data])
 
     # Stage mapping
@@ -74,7 +75,7 @@ def index():
 
 # ----------------------------
 if __name__ == "__main__":
-    model = load_model()  # load once when app starts
     app.run(debug=True)
+
 
 
