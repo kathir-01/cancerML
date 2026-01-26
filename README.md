@@ -73,7 +73,7 @@ graph TB
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YourUsername/cancer-survival-prediction.git
+   git clone https://github.com/kathir-01/cancer-survival-prediction.git
    cd cancer-survival-prediction
    ```
 
@@ -246,8 +246,8 @@ We welcome contributions from researchers, developers, and healthcare profession
 
 ### Get Help
 - 📧 Email: support@cancerprediction.org
-- 💬 Discussion Forum: [GitHub Discussions](https://github.com/YourUsername/cancer-survival-prediction/discussions)
-- 🐛 Bug Reports: [GitHub Issues](https://github.com/YourUsername/cancer-survival-prediction/issues)
+- 💬 Discussion Forum: [GitHub Discussions](https://github.com/kathir-01/cancer-survival-prediction/discussions)
+- 🐛 Bug Reports: [GitHub Issues](https://github.com/kathir-01/cancer-survival-prediction/issues)
 
 ## 📄 License
 
@@ -269,7 +269,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 *Last Updated: October 2023*  
 *Version: 2.1.0*
 
-[![GitHub stars](https://img.shields.io/github/stars/YourUsername/cancer-survival-prediction?style=social)](https://github.com/YourUsername/cancer-survival-prediction)
+[![GitHub stars](https://img.shields.io/github/stars/kathir-01/cancer-survival-prediction?style=social)](https://github.com/kathir-01/cancer-survival-prediction)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
